@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MovieDetailVC">
+            <connections>
+                <outlet property="connectionErrImg" destination="x9C-gG-fmh" id="UNt-Lx-ick"/>
+                <outlet property="movieDescription" destination="URD-UN-7bV" id="VZg-3I-8s2"/>
+                <outlet property="movieImage" destination="5gn-Va-KbS" id="XJo-UD-xsk"/>
+                <outlet property="movieTitle" destination="zGW-LD-21W" id="b2h-18-FXO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="MovieDetailVC" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeHolder.png" translatesAutoresizingMaskIntoConstraints="NO" id="5gn-Va-KbS">
+                    <rect key="frame" x="-49" y="-150" width="509" height="915"/>
+                </imageView>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SRa-Uf-Vl7">
+                    <rect key="frame" x="13" y="247" width="393" height="368"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="342" translatesAutoresizingMaskIntoConstraints="NO" id="URD-UN-7bV">
+                            <rect key="frame" x="25" y="37" width="342" height="366"/>
+                            <mutableString key="text">sadfas;dfjdsa;lkfj;lasdfjkl;adsjfkladsjf;kladsjfkl;adsjf;sadfasdfadsfasdfadsfadsfadsfdsafdsfadsfadsfasdfadsfadsfadsfkladjskfjads;lfsadfas;dfjdsa;lkfj;lasdfjkl;adsjfkladsjf;kladsjfkl;adsjf;sadfasdfadsfasdfadsfadsfadsfdsafdsfadsfadsfasdfadsfadsfadsfkladjskfjads;lfsadfas;dfjdsa;lkfj;lasdfjkl;adsjfkladsjf;kladsjfkl;adsjf;sadfasdfadsfasdfadsfadsfadsfdsafdsfadsfadsfasdfadsfadsfadsfkladjskfjads;lfsadfas;dfjdsa;lkfj;lasdfjkl;adsjfkladsjf;kladsjfkl;adsjf;sadfasdfadsfasdfadsfadsfadsfdsafdsfadsfadsfasdfadsfadsfadsfkladjskfjads;lfsadfas;dfjdsa;lkfj;lasdfjkl;adsjfkladsjf;kladsjfkl;adsjf;sadfasdfadsfasdfadsfadsfadsfdsafdsfadsfadsfasdfadsfadsfadsfkladjskfjads;lfsadfas;dfjdsa;lkfj;lasdfjkl;adsjfkladsjf;kladsjfkl;adsjf;sadfasdfadsfasdfadsfadsfadsfdsafdsfadsfadsfasdfadsfadsfadsfkladjskfjads;lf</mutableString>
+                            <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="17"/>
+                            <color key="textColor" red="0.62911854619999996" green="0.070313047540000007" blue="0.1043492815" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zGW-LD-21W">
+                            <rect key="frame" x="12" y="12" width="318" height="21"/>
+                            <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="17"/>
+                            <color key="textColor" red="0.62911854619999996" green="0.070313047540000007" blue="0.1043492815" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NetworkErr.png" translatesAutoresizingMaskIntoConstraints="NO" id="x9C-gG-fmh">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="NetworkErr.png" width="1278" height="82"/>
+        <image name="placeHolder.png" width="320" height="320"/>
+    </resources>
+</document>

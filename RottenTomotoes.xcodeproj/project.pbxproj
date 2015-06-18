@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A65326E6598BCF9DD9E0BC5 /* libPods-RottenTomotoes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F170D9DBC000AC47C0F36DF3 /* libPods-RottenTomotoes.a */; };
+		E33847601B319FB9002AB17A /* NetworkErr.png in Resources */ = {isa = PBXBuildFile; fileRef = E338475F1B319FB9002AB17A /* NetworkErr.png */; };
+		E33847621B327286002AB17A /* placeHolder.png in Resources */ = {isa = PBXBuildFile; fileRef = E33847611B327286002AB17A /* placeHolder.png */; };
 		E37E9B1A1B2D3F1100136DB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E37E9B191B2D3F1100136DB3 /* main.m */; };
 		E37E9B1D1B2D3F1100136DB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E37E9B1C1B2D3F1100136DB3 /* AppDelegate.m */; };
-		E37E9B201B2D3F1100136DB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37E9B1F1B2D3F1100136DB3 /* ViewController.m */; };
-		E37E9B231B2D3F1100136DB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37E9B211B2D3F1100136DB3 /* Main.storyboard */; };
 		E37E9B251B2D3F1200136DB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E37E9B241B2D3F1200136DB3 /* Images.xcassets */; };
 		E37E9B281B2D3F1200136DB3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E37E9B261B2D3F1200136DB3 /* LaunchScreen.xib */; };
 		E37E9B341B2D3F1200136DB3 /* RottenTomotoesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E37E9B331B2D3F1200136DB3 /* RottenTomotoesTests.m */; };
+		E37E9B401B2D3F4200136DB3 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37E9B3E1B2D3F4200136DB3 /* BaseViewController.m */; };
+		E37E9B411B2D3F4200136DB3 /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E37E9B3F1B2D3F4200136DB3 /* BaseViewController.xib */; };
+		E37E9B451B2D439300136DB3 /* MovieListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E37E9B431B2D439300136DB3 /* MovieListTVC.m */; };
+		E37E9B461B2D439300136DB3 /* MovieListTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E37E9B441B2D439300136DB3 /* MovieListTVC.xib */; };
+		E37E9B4A1B2D457200136DB3 /* MovieListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E37E9B481B2D457200136DB3 /* MovieListCell.m */; };
+		E37E9B4B1B2D457200136DB3 /* MovieListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E37E9B491B2D457200136DB3 /* MovieListCell.xib */; };
+		E37E9B4D1B2D45A400136DB3 /* PB114371(2).jpg in Resources */ = {isa = PBXBuildFile; fileRef = E37E9B4C1B2D45A400136DB3 /* PB114371(2).jpg */; };
+		E37E9B501B2D46B000136DB3 /* RottenTomatoDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E37E9B4F1B2D46B000136DB3 /* RottenTomatoDataModel.m */; };
+		E37E9B541B2D48E100136DB3 /* MovieDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E37E9B521B2D48E100136DB3 /* MovieDetailVC.m */; };
+		E37E9B551B2D48E100136DB3 /* MovieDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E37E9B531B2D48E100136DB3 /* MovieDetailVC.xib */; };
+		E37E9B581B2D57A900136DB3 /* MovieDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E37E9B571B2D57A900136DB3 /* MovieDataObject.m */; };
+		E37E9B5B1B2D585D00136DB3 /* MovieListDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E37E9B5A1B2D585D00136DB3 /* MovieListDataObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +40,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		674EB03F8B32FBDA87D543E8 /* Pods-RottenTomotoes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RottenTomotoes.release.xcconfig"; path = "Pods/Target Support Files/Pods-RottenTomotoes/Pods-RottenTomotoes.release.xcconfig"; sourceTree = "<group>"; };
+		E338475F1B319FB9002AB17A /* NetworkErr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NetworkErr.png; sourceTree = "<group>"; };
+		E33847611B327286002AB17A /* placeHolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeHolder.png; sourceTree = "<group>"; };
 		E37E9B141B2D3F1100136DB3 /* RottenTomotoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RottenTomotoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E37E9B181B2D3F1100136DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E37E9B191B2D3F1100136DB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E37E9B1B1B2D3F1100136DB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E37E9B1C1B2D3F1100136DB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E37E9B1E1B2D3F1100136DB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E37E9B1F1B2D3F1100136DB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E37E9B221B2D3F1100136DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E37E9B241B2D3F1200136DB3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E37E9B271B2D3F1200136DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E37E9B2D1B2D3F1200136DB3 /* RottenTomotoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RottenTomotoesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E37E9B321B2D3F1200136DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E37E9B331B2D3F1200136DB3 /* RottenTomotoesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RottenTomotoesTests.m; sourceTree = "<group>"; };
+		E37E9B3D1B2D3F4200136DB3 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		E37E9B3E1B2D3F4200136DB3 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		E37E9B3F1B2D3F4200136DB3 /* BaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
+		E37E9B421B2D439300136DB3 /* MovieListTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieListTVC.h; sourceTree = "<group>"; };
+		E37E9B431B2D439300136DB3 /* MovieListTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieListTVC.m; sourceTree = "<group>"; };
+		E37E9B441B2D439300136DB3 /* MovieListTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieListTVC.xib; sourceTree = "<group>"; };
+		E37E9B471B2D457200136DB3 /* MovieListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieListCell.h; sourceTree = "<group>"; };
+		E37E9B481B2D457200136DB3 /* MovieListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieListCell.m; sourceTree = "<group>"; };
+		E37E9B491B2D457200136DB3 /* MovieListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieListCell.xib; sourceTree = "<group>"; };
+		E37E9B4C1B2D45A400136DB3 /* PB114371(2).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PB114371(2).jpg"; sourceTree = "<group>"; };
+		E37E9B4E1B2D46B000136DB3 /* RottenTomatoDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RottenTomatoDataModel.h; path = ../RottenTomatoDataModel.h; sourceTree = "<group>"; };
+		E37E9B4F1B2D46B000136DB3 /* RottenTomatoDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RottenTomatoDataModel.m; path = ../RottenTomatoDataModel.m; sourceTree = "<group>"; };
+		E37E9B511B2D48E100136DB3 /* MovieDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetailVC.h; sourceTree = "<group>"; };
+		E37E9B521B2D48E100136DB3 /* MovieDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetailVC.m; sourceTree = "<group>"; };
+		E37E9B531B2D48E100136DB3 /* MovieDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieDetailVC.xib; sourceTree = "<group>"; };
+		E37E9B561B2D57A900136DB3 /* MovieDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovieDataObject.h; path = ../MovieDataObject.h; sourceTree = "<group>"; };
+		E37E9B571B2D57A900136DB3 /* MovieDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MovieDataObject.m; path = ../MovieDataObject.m; sourceTree = "<group>"; };
+		E37E9B591B2D585D00136DB3 /* MovieListDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieListDataObject.h; sourceTree = "<group>"; };
+		E37E9B5A1B2D585D00136DB3 /* MovieListDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieListDataObject.m; sourceTree = "<group>"; };
+		ECBC7DD3B9E52AAAF9378648 /* Pods-RottenTomotoes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RottenTomotoes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RottenTomotoes/Pods-RottenTomotoes.debug.xcconfig"; sourceTree = "<group>"; };
+		F170D9DBC000AC47C0F36DF3 /* libPods-RottenTomotoes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RottenTomotoes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A65326E6598BCF9DD9E0BC5 /* libPods-RottenTomotoes.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +95,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3000BB95501E4673D7E4295B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F170D9DBC000AC47C0F36DF3 /* libPods-RottenTomotoes.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3E030BC065950B9C3E0DF80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECBC7DD3B9E52AAAF9378648 /* Pods-RottenTomotoes.debug.xcconfig */,
+				674EB03F8B32FBDA87D543E8 /* Pods-RottenTomotoes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E37E9B0B1B2D3F1100136DB3 = {
 			isa = PBXGroup;
 			children = (
 				E37E9B161B2D3F1100136DB3 /* RottenTomotoes */,
 				E37E9B301B2D3F1200136DB3 /* RottenTomotoesTests */,
 				E37E9B151B2D3F1100136DB3 /* Products */,
+				D3E030BC065950B9C3E0DF80 /* Pods */,
+				3000BB95501E4673D7E4295B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +135,26 @@
 		E37E9B161B2D3F1100136DB3 /* RottenTomotoes */ = {
 			isa = PBXGroup;
 			children = (
+				E37E9B561B2D57A900136DB3 /* MovieDataObject.h */,
+				E37E9B571B2D57A900136DB3 /* MovieDataObject.m */,
+				E37E9B591B2D585D00136DB3 /* MovieListDataObject.h */,
+				E37E9B5A1B2D585D00136DB3 /* MovieListDataObject.m */,
+				E37E9B4E1B2D46B000136DB3 /* RottenTomatoDataModel.h */,
+				E37E9B4F1B2D46B000136DB3 /* RottenTomatoDataModel.m */,
 				E37E9B1B1B2D3F1100136DB3 /* AppDelegate.h */,
 				E37E9B1C1B2D3F1100136DB3 /* AppDelegate.m */,
-				E37E9B1E1B2D3F1100136DB3 /* ViewController.h */,
-				E37E9B1F1B2D3F1100136DB3 /* ViewController.m */,
-				E37E9B211B2D3F1100136DB3 /* Main.storyboard */,
+				E37E9B3D1B2D3F4200136DB3 /* BaseViewController.h */,
+				E37E9B3E1B2D3F4200136DB3 /* BaseViewController.m */,
+				E37E9B3F1B2D3F4200136DB3 /* BaseViewController.xib */,
+				E37E9B511B2D48E100136DB3 /* MovieDetailVC.h */,
+				E37E9B521B2D48E100136DB3 /* MovieDetailVC.m */,
+				E37E9B531B2D48E100136DB3 /* MovieDetailVC.xib */,
+				E37E9B421B2D439300136DB3 /* MovieListTVC.h */,
+				E37E9B431B2D439300136DB3 /* MovieListTVC.m */,
+				E37E9B441B2D439300136DB3 /* MovieListTVC.xib */,
+				E37E9B471B2D457200136DB3 /* MovieListCell.h */,
+				E37E9B481B2D457200136DB3 /* MovieListCell.m */,
+				E37E9B491B2D457200136DB3 /* MovieListCell.xib */,
 				E37E9B241B2D3F1200136DB3 /* Images.xcassets */,
 				E37E9B261B2D3F1200136DB3 /* LaunchScreen.xib */,
 				E37E9B171B2D3F1100136DB3 /* Supporting Files */,
@@ -96,6 +165,9 @@
 		E37E9B171B2D3F1100136DB3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E33847611B327286002AB17A /* placeHolder.png */,
+				E338475F1B319FB9002AB17A /* NetworkErr.png */,
+				E37E9B4C1B2D45A400136DB3 /* PB114371(2).jpg */,
 				E37E9B181B2D3F1100136DB3 /* Info.plist */,
 				E37E9B191B2D3F1100136DB3 /* main.m */,
 			);
@@ -126,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E37E9B371B2D3F1200136DB3 /* Build configuration list for PBXNativeTarget "RottenTomotoes" */;
 			buildPhases = (
+				931BB57115D7965AE4E5A114 /* Check Pods Manifest.lock */,
 				E37E9B101B2D3F1100136DB3 /* Sources */,
 				E37E9B111B2D3F1100136DB3 /* Frameworks */,
 				E37E9B121B2D3F1100136DB3 /* Resources */,
+				946A5FBBE314B9C871091BE7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,8 +273,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E37E9B231B2D3F1100136DB3 /* Main.storyboard in Resources */,
+				E37E9B411B2D3F4200136DB3 /* BaseViewController.xib in Resources */,
+				E33847621B327286002AB17A /* placeHolder.png in Resources */,
 				E37E9B281B2D3F1200136DB3 /* LaunchScreen.xib in Resources */,
+				E37E9B461B2D439300136DB3 /* MovieListTVC.xib in Resources */,
+				E37E9B4B1B2D457200136DB3 /* MovieListCell.xib in Resources */,
+				E33847601B319FB9002AB17A /* NetworkErr.png in Resources */,
+				E37E9B4D1B2D45A400136DB3 /* PB114371(2).jpg in Resources */,
+				E37E9B551B2D48E100136DB3 /* MovieDetailVC.xib in Resources */,
 				E37E9B251B2D3F1200136DB3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,14 +294,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		931BB57115D7965AE4E5A114 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		946A5FBBE314B9C871091BE7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RottenTomotoes/Pods-RottenTomotoes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E37E9B101B2D3F1100136DB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E37E9B201B2D3F1100136DB3 /* ViewController.m in Sources */,
+				E37E9B4A1B2D457200136DB3 /* MovieListCell.m in Sources */,
+				E37E9B401B2D3F4200136DB3 /* BaseViewController.m in Sources */,
 				E37E9B1D1B2D3F1100136DB3 /* AppDelegate.m in Sources */,
+				E37E9B541B2D48E100136DB3 /* MovieDetailVC.m in Sources */,
+				E37E9B451B2D439300136DB3 /* MovieListTVC.m in Sources */,
+				E37E9B581B2D57A900136DB3 /* MovieDataObject.m in Sources */,
 				E37E9B1A1B2D3F1100136DB3 /* main.m in Sources */,
+				E37E9B501B2D46B000136DB3 /* RottenTomatoDataModel.m in Sources */,
+				E37E9B5B1B2D585D00136DB3 /* MovieListDataObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +363,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E37E9B211B2D3F1100136DB3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E37E9B221B2D3F1100136DB3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E37E9B261B2D3F1200136DB3 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,6 +452,7 @@
 		};
 		E37E9B381B2D3F1200136DB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECBC7DD3B9E52AAAF9378648 /* Pods-RottenTomotoes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RottenTomotoes/Info.plist;
@@ -351,6 +463,7 @@
 		};
 		E37E9B391B2D3F1200136DB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 674EB03F8B32FBDA87D543E8 /* Pods-RottenTomotoes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RottenTomotoes/Info.plist;
@@ -412,6 +525,7 @@
 				E37E9B391B2D3F1200136DB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E37E9B3A1B2D3F1200136DB3 /* Build configuration list for PBXNativeTarget "RottenTomotoesTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +534,7 @@
 				E37E9B3C1B2D3F1200136DB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
